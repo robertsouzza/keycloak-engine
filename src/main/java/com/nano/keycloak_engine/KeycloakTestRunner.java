@@ -1,13 +1,13 @@
 package com.nano.keycloak_engine;
 
-import com.nano.keycloak_engine.service.KeycloakService; // Importe o seu serviço
-import org.keycloak.admin.client.Keycloak;
+//import com.nano.keycloak_engine.service.KeycloakService; // Importe o seu serviço
+//import org.keycloak.admin.client.Keycloak;
 import org.springframework.boot.CommandLineRunner;
-import org.springframework.stereotype.Component;
+//import org.springframework.stereotype.Component;
 
-@Component
+//@Component
 public class KeycloakTestRunner implements CommandLineRunner {
-
+     /*
     private final Keycloak keycloak;
     private final KeycloakService keycloakService; // Adicionamos o serviço aqui
 
@@ -15,10 +15,10 @@ public class KeycloakTestRunner implements CommandLineRunner {
     public KeycloakTestRunner(Keycloak keycloak, KeycloakService keycloakService) {
         this.keycloak = keycloak;
         this.keycloakService = keycloakService;
-    }
+    }*/
 
     @Override
-    public void run(String... args) throws Exception {
+    public void run(String... args) throws Exception {/*
         System.out.println(">>> INICIANDO TESTE DE CONEXÃO E CRIAÇÃO...");
         
         try {
@@ -42,5 +42,5 @@ public class KeycloakTestRunner implements CommandLineRunner {
         } catch (Exception e) {
             System.err.println(">>> ERRO NO PROCESSO: " + e.getMessage());
         }
-    }
+    */}
 }
