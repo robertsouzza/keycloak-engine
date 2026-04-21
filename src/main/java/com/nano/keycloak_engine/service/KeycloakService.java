@@ -35,6 +35,7 @@ public class KeycloakService {
         UserRepresentation user = new UserRepresentation();
         user.setUsername(username);
         user.setEmail(email);
+        user.setEmailVerified(true);
         user.setEnabled(true);
         user.setCredentials(Collections.singletonList(credential));
 

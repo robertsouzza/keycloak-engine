@@ -1,4 +1,4 @@
-package com.nano.keycloak_engine.controller;
+package com.nano.keycloak_engine.dto;
 
 public record UserRequest(
     String username,
